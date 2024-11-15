@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000661] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.001412] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099773] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.300968] (-) TimerEvent: {}
+[0.401707] (-) TimerEvent: {}
+[0.502341] (-) TimerEvent: {}
+[0.602836] (-) TimerEvent: {}
+[0.703326] (-) TimerEvent: {}
+[0.803827] (-) TimerEvent: {}
+[0.904428] (-) TimerEvent: {}
+[0.925215] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/sakamoto/ros2_ws/build/mypkg/build', 'install', '--record', '/home/sakamoto/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sakamoto/ros2_ws/src/mypkg', 'env': {'USER': 'sakamoto', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sakamoto', 'OLDPWD': '/home/sakamoto/ros2_ws/src/mypkg', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sakamoto', 'NAME': 'sakamoto', 'WSL_INTEROP': '/run/WSL/67_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.24.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/gnuplot/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Users/sakamoto/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/坂本聡志/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/home/sakamoto/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sakamoto/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sakamoto/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.004643] (-) TimerEvent: {}
+[1.105263] (-) TimerEvent: {}
+[1.171383] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.172083] (mypkg) StdoutLine: {'line': b'creating ../../build/mypkg/mypkg.egg-info\n'}
+[1.172524] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.172988] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.173526] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.174025] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.174322] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.190225] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.205382] (-) TimerEvent: {}
+[1.230270] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.231120] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.231556] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.231713] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.231805] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/build/mypkg/build\n'}
+[1.232216] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/build/mypkg/build/lib\n'}
+[1.232360] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.232458] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/sakamoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.232728] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.233641] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.234880] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[1.235295] (mypkg) StdoutLine: {'line': b'copying /home/sakamoto/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/sakamoto/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[1.235817] (mypkg) StdoutLine: {'line': b'byte-compiling /home/sakamoto/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.237218] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.237573] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/install/mypkg/share/ament_index\n'}
+[1.237719] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/install/mypkg/share/ament_index/resource_index\n'}
+[1.238016] (mypkg) StdoutLine: {'line': b'creating /home/sakamoto/ros2_ws/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.238152] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/sakamoto/ros2_ws/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.238484] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/sakamoto/ros2_ws/install/mypkg/share/mypkg\n'}
+[1.238612] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.240595] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/sakamoto/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[1.241515] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.263081] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/sakamoto/ros2_ws/build/mypkg/install.log'\n"}
+[1.287735] (mypkg) CommandEnded: {'returncode': 0}
+[1.305648] (-) TimerEvent: {}
+[1.322671] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.324336] (-) EventReactorShutdown: {}
